@@ -242,9 +242,12 @@ input[type="email"] {
 }
 
 input[type="checkbox"] {
-  width: auto;
-  height: auto;
+  height: 1em;
+  width: 1em;
   float: left;
+  background-color: #DDD;
+  border: 2px solid #8a8a8a;
+  border-radius: 4px;
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
@@ -253,6 +256,11 @@ input[type="checkbox"] {
 
 input[type="checkbox"] + label {
   display: inline;
+}
+
+input[type="submit"] {
+  font-family: 'Russo One', sans-serif;
+  font-size: 1.5em;
 }
 
 /* ===== MODULAR STYLES ===== */
@@ -268,6 +276,7 @@ form li {
 
 .hasjs #input-email {
   position: relative;
+  font-weight: 500;
 }
 
 .hasjs #input-email label {

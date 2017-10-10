@@ -208,6 +208,10 @@ body, html {
 }
 }
 
+body {
+  background-color: #bfbfbf;	
+}
+
 /* ===== LAYOUT STYLES ====== */
 h1,p {
   padding-bottom: .9em;
@@ -228,7 +232,7 @@ input {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  background-color: #DDD;
+  background-color: #f2f2f2;
 }
 
 #input-submit {
@@ -244,9 +248,6 @@ input[type="checkbox"] {
   height: 1em;
   width: 1em;
   float: left;
-  background-color: #DDD;
-  border: 2px solid #8a8a8a;
-  border-radius: 4px;
   -ms-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -webkit-transform: scale(1.2);
@@ -260,6 +261,7 @@ input[type="checkbox"] + label {
 input[type="submit"] {
   font-family: 'Russo One', sans-serif;
   font-size: 1.5em;
+  background-color: #666666;
 }
 
 /* ===== MODULAR STYLES ===== */

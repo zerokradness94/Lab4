@@ -272,14 +272,3 @@ form li {
   padding-left: 30px;
 }
 /* ===== STATE STYLES ======= */
-
-.hasjs #input-email {
-  position: relative;
-  font-weight: 500;
-}
-
-.hasjs #input-email label {
-  top: 25px;
-  left: 20px;
-  position: absolute;
-}
